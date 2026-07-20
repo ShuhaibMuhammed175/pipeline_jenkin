@@ -8,7 +8,7 @@ on:
 jobs:
   test:
 
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     steps:
       - name: Checkout Repository
@@ -31,3 +31,6 @@ jobs:
       - name: Run Django Tests
         run: |
           python manage.py test
+
+
+# https://www.myntra.com/casual-shoes/roadster/the-roadster-lifestyle-co-men-laced-up-memory-foam-casual-shoes/30774848/buy
